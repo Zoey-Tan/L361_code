@@ -1,0 +1,21 @@
+---
+# Where to store data
+dataset_dir: ./data/cifar10/data
+
+# Folder of client folders
+# indexed by id, containing train and test
+# data in .pt format
+partition_dir: ./data/cifar10/partition_1000
+
+# How many clients to create
+num_clients: 100
+
+# How large should the test set of each client
+# be relative to the train set
+val_ratio: 0.1
+
+# Seed for partition generation
+seed: 1337
+
+# alpha for LDA
+concentration: 1000
