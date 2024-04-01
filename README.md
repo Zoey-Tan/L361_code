@@ -1,4 +1,10 @@
+Source code for L361 Individual Project (Adapted from the fl-project-template)
+Raw data avaialble at [google drive](https://drive.google.com/file/d/1g4jw8KX8w1-6nduL1JxCYAwtBKtZ0AEA/view?usp=sharing)
+To reproduce the plots used in the report, put the raw data into the /outputs/2024-03-30/ folder and run "Data Analysis.ipynb"
+TO reproduce the experiment output, run the experiments with configurations suggested by the raw data folder names with fed configuration seeds of 1337 (run1), 1338 (run2) and 1339 (run3).
 
+
+____________below are the initial documentation_____________
 # [CaMLSys](https://mlsys.cst.cam.ac.uk/) Federated Learning Research Template using [Flower](https://github.com/adap/flower), [Hydra](https://github.com/facebookresearch/hydra), and [Wandb](https://wandb.ai/site)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/camlsys/fl-project-template/main.svg)](https://results.pre-commit.ci/latest/github/camlsys/fl-project-template/main)
 
